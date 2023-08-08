@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Content format */
+.sidenav{
+  height:650px;
+  width: 15%;
+  float: left;
+}
+
+#main{
+  height:650px;
+  width: 85%;
+  float: right;
+  overflow: hidden;
+  border-bottom:2px solid rgb(0, 152, 253);
+}
+
+.header {
+  display: flex;
+  padding: 0.5rem;
+  border-bottom: 2px solid rgb(0, 152, 253);
+}
+
+.title{
+  margin-left: 30px;
+  padding: auto;
+  font-family: monospace;
+  font-size:50px;
+  color:rgb(0, 152, 253);
+}
+
+.logo{
+  height: 50px;
+  width: 50px;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+body {
+  height:100%;
+  background: #efefef;
+  color: rgb(54, 52, 52);
+  font-size: 25px;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* design left-sidebar */
+.sidenav {
+  border-right: 2px solid rgb(0, 152, 253);
+  overflow-x: hidden;
+  padding-top: 5px;
+  border-bottom:2px solid rgb(0, 152, 253);
+}
+
+.sidenav a{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  border: none;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.sidenav a:hover{
+  color: #f1f1f1;
+  background: rgb(0, 152, 253);
+  border-radius: 5px;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* home content */
+
+/* Attendance live update design */
+.live{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.live-title{
+  text-align: center;
+  font-family: monospace;
+  font-size:30px;
+  color:rgb(0, 152, 253);
+}
+
+.live-message{
+  text-align: center;
+  font-family: monospace;
+  font-size:30px;
+  color:rgb(0, 152, 253);
+}
+
+table {
+  font-family: sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #eee;
+  border-bottom: 2px solid rgb(0, 152, 253);
+  width:500px;
+ }
+
+ tr {
+  background: #f4f4f4;
+  width: 50px;
+}
+
+td {
+  color: #999;
+  border: 1px solid #eee;
+  padding: 10px 30px;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* information */
+.information,.information2{
+  display: flex;
+}
+
+.info-div{/* name plate */
+  width: 300px;
+  margin: 0 8px 0 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.info-name{
+  background:white;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.info-Student,.info-Teacher,.info-Course,.info-Attendance,.info-SubTeacher{
+  min-height: 150px;
+  width: 300px;
+  margin: 50px 8px 0 8px;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.info-Student:Hover,.info-Teacher:Hover,.info-Course:Hover,.info-Attendance:Hover,.info-SubTeacher:Hover{
+  box-shadow: rgb(10, 173, 238) 0px 7px 29px 0px;
+  cursor: pointer;
+}
+
+
+
+.info-Student{
+  /* background: white; */
+  background-image: url("../../Assist/img/Students.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.info-Teacher{
+  /* background: white; */
+  background-image: url("../../Assist/img/Teacher.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300px 150px;
+
+}
+.info-Course{
+  /* background: white; */
+  background-image: url("../../Assist/img/Course.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300px 150px;
+}
+
+#infoURL{
+margin: 30px 30px 0 80px;
+text-decoration: none;
+color: black;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+.information2{
+  display: flex;
+}
+
+.info-Attendance,.info-SubTeacher,.info-Subject-Books{
+  min-height: 150px;
+  width: 300px;
+  margin: 8px 8px 0 8px;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.info-Attendance:Hover,.info-SubTeacher:Hover,.info-Subject-Books:Hover{
+  box-shadow: rgb(10, 173, 238) 0px 7px 29px 0px;
+  cursor: pointer;
+}
+
+.info-Attendance{
+  background-image: url("../../Assist/img/Attendance.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 250px 150px;
+}
+
+
+.info-SubTeacher{
+  background-image: url("../../Assist/img/S_Teacher.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200px 100px;
+}
+
+.info-Subject-Books{
+  background-image: url("../../Assist/img/books.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200px 100px;
+}

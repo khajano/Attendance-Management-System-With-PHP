@@ -1,0 +1,119 @@
+/* This CSS file contains the css code (design) for attendance sheet table */
+.container{
+ width: 60%;
+ height:500px;
+ margin: 0 auto;
+ margin-top: 50px;
+
+ border-radius: 50px;
+ background: #e0e0e0;
+ box-shadow:  20px 20px 60px #bebebe,
+            -20px -20px 60px #ffffff;
+
+}
+
+.header{
+ margin-left:40%;
+ font-family:serif;
+ padding: 1PX;
+
+}
+
+.Title{
+padding: auto;
+font-family: monospace;
+font-size:30px;
+color:rgb(0, 152, 253);
+}
+
+table {
+font-family: sans-serif;
+border-collapse: collapse;
+border: 1px solid #eee;
+border-bottom: 2px solid rgb(0, 152, 253);
+margin: 0 auto;
+margin-left: auto;
+margin-right: auto ;
+}
+
+tr {
+ background: #f4f4f4;
+}
+
+td {
+ color: #999;
+ border: 1px solid #eee;
+ padding: 5px 5px;
+}
+
+input{
+ text-align:center;
+}
+
+.subject{
+ pointer-events:none;
+ width:100%;
+ background: rgb(0, 152, 253);
+ color: #eee;
+ border:none;
+}
+
+th{
+ background: rgb(0, 152, 253);
+ color: #eee;
+ font-size:18px;
+ font-weight: normal;
+ font-family: serif;
+}
+
+.ams{
+ border:none;
+ pointer-events:none;
+ background: rgb(0, 152, 253);
+ color: #eee;
+}
+
+.disable{
+width:auto 100%;
+pointer-events:none;
+font-family: sans-serif;
+background:none;
+color: #999;
+border:none;
+width:auto;
+}
+
+.button{
+ width: 150px;
+ height:40px;
+ color: #f1f1f1;
+ background: rgb(141, 144, 146);
+ border-radius: 5px;
+ text-align: center;
+ float:right;
+ margin: 5px 130px 0px 0px;
+ cursor:pointer;
+}
+
+.button:hover{
+ color: #f1f1f1;
+ background: rgb(0, 152, 253);
+ border-radius: 5px;
+}
+
+.arrow {
+ border: solid rgb(0, 152, 253);
+ box-shadow:20px 20px 60px #bebebe,
+ -20px -20px 60px #ffffff;
+ border-width: 0 4px 4px 0;
+ display: inline-block;
+ padding: 3px;
+ position: fixed;
+ margin-left: -20%;
+ margin-top:30px;
+}
+
+.left {
+ transform: rotate(135deg);
+ -webkit-transform: rotate(135deg);
+}

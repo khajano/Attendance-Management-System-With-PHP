@@ -1,0 +1,102 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style: none;
+text-decoration: none;
+}
+
+body{
+background: #efefef;
+}
+
+#MC{
+width: 80%;
+min-height:500px;
+max-height: 600px;
+margin: 0 auto;
+margin-top: 50px;
+
+border-radius: 50px;
+background: #e0e0e0;
+box-shadow:  20px 20px 60px #bebebe,
+            -20px -20px 60px #ffffff;
+}
+
+.container{
+margin-left: 20px;
+}
+
+/* Section add new student. */
+.TakeA{
+height: 100%;
+width: 10% auto;
+border: 1px solid silver;
+text-align: center;
+padding: 8px;
+margin: 5px 5px 5px 5px;
+-webkit-appearance: none;
+color:rgb(65, 65, 65);
+}
+
+.YB{
+-moz-appearance: textfield;
+}
+
+.button{
+background: #0c9bbe;
+border-style: none;
+padding: 8px;
+height: 100%;
+width: 15%;
+font-size: medium;
+font-family: serif;
+font-weight: 500;
+color: #efefef;
+cursor: pointer;
+}
+
+.title{
+display: inline;
+margin-left: 30px;
+padding: auto;
+font-family: monospace;
+font-size:50px;
+color:rgb(0, 152, 253);
+}
+
+.T-Name{
+  color: #0c9bbe;
+}
+
+h1{
+  color:rgb(0, 152, 253);
+}
+
+.logo{
+height: 50px;
+width: 50px;
+margin:20px 0 0 10px;
+}
+
+.data{
+margin-right: 10px;
+display:block;
+float: right;
+padding:10px;
+font-family: serif;
+font-size:large;
+}
+
+a{
+text-decoration: none;
+margin-top: 2px;
+text-decoration: none;
+padding: 2px;
+color: #0c9bbe;
+}
+
+form{
+  margin: 10px;
+  padding: 0 0 10px 10px;
+}

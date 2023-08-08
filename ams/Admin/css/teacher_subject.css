@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.AST {
+  margin-left: 40%;
+  padding: 10px 0 2px 0;
+}
+
+.TitleAST{
+  font-family: monospace;
+  font-size:30px;
+  color:rgb(0, 152, 253);
+}
+
+.table {
+  font-family: sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #eee;
+  border-bottom: 2px solid rgb(0, 152, 253);
+  border: 2px solid rgb(0, 152, 253);
+}
+
+.table_r {
+  display: table-row;
+  background: #f4f4f4;
+  width: 50px;
+}
+
+.table_r div {
+  display: table-cell;
+  border: 1px solid #eee;
+  padding: 0px;
+}
+
+.th1 {
+  background: rgb(0, 152, 253);
+  color: #eee;
+}
+
+.id {
+  background: transparent;
+  pointer-events: none;
+  border: none;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.ID {
+  text-align: center;
+  width: 5%;
+}
+
+a{
+  /* color: #999; */
+  color: #818181;
+}
+
+.Fname,
+.Lname,.operation {
+  text-align: center;
+}
+
+.fname,
+.lname {
+  background: transparent;
+  pointer-events: none;
+  border: none;
+  width:auto, 17%;
+  text-align: center;
+  /* color: #999; */
+  color: #818181;
+  font-size: 15px;
+}
+
+.crs,
+.batch,
+.sem,
+.sub {
+  width:auto, 14%;
+  text-align: center;
+}
+
+.TakeA {
+  background: transparent;
+  border: none;
+  text-align: center;
+  appearance: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  /* color: #999; */
+  color: #818181;
+  font-size: 15px;
+}
+
+.YB{
+  -moz-appearance: textfield;
+  color:rgb(65, 65, 65);
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+}
+
+select {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.button{
+  width:90%;
+  color: #f1f1f1;
+  background: rgb(141, 144, 146);
+  padding: 10px;
+  overflow: hidden;
+  text-align: center;
+  cursor:pointer;
+}
+.button:hover{
+  color: #f1f1f1;
+  background: rgb(0, 152, 253);
+}

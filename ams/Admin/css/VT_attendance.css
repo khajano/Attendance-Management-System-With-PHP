@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.TakeA{
+  height: 100%;
+  width: 10% auto;
+  border: 1px solid silver;
+  text-align: center;
+  padding: 8px;
+  margin: 5px 5px 5px 5px;
+  -webkit-appearance: none;
+  color:rgb(65, 65, 65);
+}
+
+.batch{
+  -moz-appearance: textfield;
+}
+
+.Title_VAT{
+  font-family: monospace;
+  font-size:30px;
+  color:rgb(0, 152, 253);
+  margin-left: 10px;
+}
+
+.button{
+  height: 100%;
+  width: 10%;
+  color: #f1f1f1;
+  background: rgb(141, 144, 146);
+  border-radius: 5px;
+  padding: 8px;
+  text-align: center;
+  cursor:pointer;
+}
+
+.button:hover{
+  color: #f1f1f1;
+  background: rgb(0, 152, 253);
+  border-radius: 5px;
+}
+
+.VTA,.container{
+  margin-bottom: 4vh;
+}

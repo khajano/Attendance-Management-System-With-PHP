@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* centering element */
+.main{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+/* Styling Table */
+table {
+  font-family: sans-serif;
+  border-collapse: collapse; 
+  border: 1px solid #eee; 
+  border-bottom: 2px solid rgb(0, 152, 253);
+  width:500px;
+}
+
+tr {
+  background: #f4f4f4;
+  width: 50px;
+}
+
+td {
+  color: #999;
+  border: 1px solid #eee;
+  padding: 10px 30px;
+} 
+
+.ctable { 
+  background: rgb(0, 152, 253);
+  color: #eee;
+} 
+
+.button{
+  width: 50px;
+  color: #f1f1f1;
+  background: rgb(141, 144, 146);
+  border-radius: 5px;
+  padding: 10px auto;
+  text-align: center;
+}
+
+.button:hover{
+  color: #f1f1f1;
+  background: rgb(0, 152, 253);
+  border-radius: 5px;
+}
+
+input {
+  border: 1px solid silver;
+  text-align: center;
+  padding: 8px;
+  margin: 5px 5px 5px 5px;
+  width: 305px;
+}
